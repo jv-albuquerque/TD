@@ -3,9 +3,11 @@
 public class GameController : MonoBehaviour
 {
     private PauseController pause;
+    private StatusController status;
+
     private Score score;
 
-    [SerializeField] private GameObject importatDatas;
+    [SerializeField] private GameObject importatDatas = null;
 
     private bool paused = false;
     private bool gameOver = false;
@@ -20,7 +22,10 @@ public class GameController : MonoBehaviour
     void Start()
     {
         pause = GetComponent<PauseController>();
-        score = GetComponent<Score>();        
+        score = GetComponent<Score>();
+        status = GetComponent<StatusController>();
+
+        SetHpText.instance.SetText = status.Hp;
     }
 
     // Update is called once per frame
@@ -58,5 +63,11 @@ public class GameController : MonoBehaviour
         gameOver = true;
         score.SaveHighScore();
         pause.GameOver();
+    }
+
+    public void DealDamage()
+    {
+        status.Hp -= 1;
+        SetHpText.instance.SetText = status.Hp;
     }
 }
