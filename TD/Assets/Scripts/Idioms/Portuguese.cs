@@ -60,10 +60,11 @@ public class Portuguese : Idiom
         map.Add("Back to Main Menu", "Voltar para o Menu Principal");
         // ---
 
-        //Level 1
+        //Level UI
         // ---
         map.Add("Highscore", "Pontuação Máxima");
         map.Add("Score", "Pontuação");
+        map.Add("Hp", "HP");
         // ---
     }
 }

@@ -60,10 +60,11 @@ public class English : Idiom
         map.Add("Back to Main Menu", "Back to Main Menu");
         // ---
 
-        //Level 1
+        //Level UI
         // ---
         map.Add("Highscore", "Highscore");
         map.Add("Score", "Score");
+        map.Add("Hp", "HP");
         // ---
     }
 }

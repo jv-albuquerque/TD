@@ -12,11 +12,7 @@ public class SetHpText : MonoBehaviour
         if (instance)
             Destroy(gameObject);
         instance = this;
-    }
 
-    // Start is called before the first frame update
-    void Start()
-    {
         text = GetComponent<TextMeshProUGUI>();
     }
 
