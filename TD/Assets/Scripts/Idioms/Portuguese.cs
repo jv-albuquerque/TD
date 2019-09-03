@@ -65,6 +65,7 @@ public class Portuguese : Idiom
         map.Add("Highscore", "Pontuação Máxima");
         map.Add("Score", "Pontuação");
         map.Add("Hp", "HP");
+        map.Add("Money", "Dinheiro");
         // ---
     }
 }

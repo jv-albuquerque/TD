@@ -8,7 +8,7 @@ namespace PathCreationEditor
     public static class PathHandle
     {
 
-        public const float extraInputRadius = .005f;
+        public const float extraInputRaDefeses = .005f;
 
         static Vector2 handleDragMouseStart;
         static Vector2 handleDragMouseEnd;
@@ -48,8 +48,8 @@ namespace PathCreationEditor
             inputType = HandleInputType.None;
 
             EventType eventType = Event.current.GetTypeForControl(id);
-            float handleRadius = handleDiameter / 2f;
-            float dstToHandle = HandleUtility.DistanceToCircle(position, handleRadius + extraInputRadius);
+            float handleRaDefeses = handleDiameter / 2f;
+            float dstToHandle = HandleUtility.DistanceToCircle(position, handleRaDefeses + extraInputRaDefeses);
             float dstToMouse = HandleUtility.DistanceToCircle(position, 0);
 
             // Handle input events

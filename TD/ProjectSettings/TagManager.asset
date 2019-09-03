@@ -7,6 +7,9 @@ TagManager:
   - MenuController
   - Datas
   - Troop
+  - Enemy
+  - TileButton
+  - Tile
   layers:
   - Default
   - TransparentFX
@@ -43,4 +46,19 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: BackGround
+    uniqueID: 4260629751
+    locked: 0
+  - name: AreaEffect
+    uniqueID: 2085043229
+    locked: 0
+  - name: Enemy n CAreas
+    uniqueID: 3049642709
+    locked: 0
+  - name: Tower
+    uniqueID: 681964815
+    locked: 0
+  - name: UI
+    uniqueID: 940914563
     locked: 0

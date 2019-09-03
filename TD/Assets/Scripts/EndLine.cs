@@ -13,7 +13,7 @@ public class EndLine : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Troop"))
+        if (collision.CompareTag("Enemy"))
             gameController.DealDamage();
     }
 }

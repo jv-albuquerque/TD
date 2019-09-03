@@ -65,6 +65,7 @@ public class English : Idiom
         map.Add("Highscore", "Highscore");
         map.Add("Score", "Score");
         map.Add("Hp", "HP");
+        map.Add("Money", "Money");
         // ---
     }
 }

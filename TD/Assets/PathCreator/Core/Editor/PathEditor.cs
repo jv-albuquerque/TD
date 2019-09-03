@@ -350,9 +350,9 @@ namespace PathCreationEditor {
             for (int i = 0; i < bezierPath.NumPoints; i += 3) {
 
                 int handleIndex = (previousMouseOverHandleIndex + i) % bezierPath.NumPoints;
-                float handleRadius = GetHandleDiameter (globalDisplaySettings.anchorSize * data.bezierHandleScale, bezierPath[handleIndex]) / 2f;
+                float handleRaDefeses = GetHandleDiameter (globalDisplaySettings.anchorSize * data.bezierHandleScale, bezierPath[handleIndex]) / 2f;
                 Vector3 pos = MathUtility.TransformPoint (bezierPath[handleIndex], creator.transform, bezierPath.Space);
-                float dst = HandleUtility.DistanceToCircle (pos, handleRadius);
+                float dst = HandleUtility.DistanceToCircle (pos, handleRaDefeses);
                 if (dst == 0) {
                     mouseOverHandleIndex = handleIndex;
                     break;
