@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: 5302e40b9fb3bcc4d9e6c9014e0312f2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5599934275096260173
+    second: Arqueiro Orc lvl 1_0
+  - first:
+      213: -9210263478431618921
+    second: Arqueiro Orc lvl 1_1
+  - first:
+      213: -1820705548120506721
+    second: Arqueiro Orc lvl 1_2
+  - first:
+      213: -5998795547170771125
+    second: Arqueiro Orc lvl 1_3
+  - first:
+      213: -8347792911869984223
+    second: Arqueiro Orc lvl 1_4
+  - first:
+      213: -1131420448303905783
+    second: Arqueiro Orc lvl 1_5
+  - first:
+      213: 6531757469644015346
+    second: Arqueiro Orc lvl 1_6
+  - first:
+      213: 7999321520254602460
+    second: Arqueiro Orc lvl 1_7
+  - first:
+      213: -1968166990388773323
+    second: Arqueiro Orc lvl 1_8
+  - first:
+      213: -84824799577643454
+    second: Arqueiro Orc lvl 1_9
+  - first:
+      213: 2102142596904987211
+    second: Arqueiro Orc lvl 1_10
+  - first:
+      213: -2651914516035777427
+    second: Arqueiro Orc lvl 1_11
+  - first:
+      213: -2750214630602333926
+    second: Arqueiro Orc lvl 1_12
+  - first:
+      213: 6430739345453684950
+    second: Arqueiro Orc lvl 1_13
+  - first:
+      213: 1273515017770198132
+    second: Arqueiro Orc lvl 1_14
+  - first:
+      213: -7386552784730610946
+    second: Arqueiro Orc lvl 1_15
+  - first:
+      213: -8689436534806571715
+    second: Arqueiro Orc lvl 1_16
+  - first:
+      213: 4927462778108754349
+    second: Arqueiro Orc lvl 1_17
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Arqueiro Orc lvl 1_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 327
+        width: 98
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dff15413793956a4990ed9baa93769e8
+      internalID: -5599934275096260173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arqueiro Orc lvl 1_1
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 327
+        width: 98
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dd1fa67d9039834fb388a790cbd3299
+      internalID: -9210263478431618921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arqueiro Orc lvl 1_2
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 327
+        width: 98
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75330e086e0c140469a6b2971fe82684
+      internalID: -1820705548120506721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arqueiro Orc lvl 1_3
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 327
+        width: 98
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0008e3bdd7734c44965c0e2023810fa
+      internalID: -5998795547170771125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arqueiro Orc lvl 1_4
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 327
+        width: 98
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28a39f71acaddf249b970b04ab73c6ba
+      internalID: -8347792911869984223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arqueiro Orc lvl 1_5
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 327
+        width: 98
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca9748ceede849842824722df0faf7e7
+      internalID: -1131420448303905783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arqueiro Orc lvl 1_6
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 165
+        width: 98
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ed4c5f7f98ac3a4ba790f3b634e1d29
+      internalID: 6531757469644015346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arqueiro Orc lvl 1_7
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 165
+        width: 98
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1134238fcffd3004c863f5e8a612de47
+      internalID: 7999321520254602460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arqueiro Orc lvl 1_8
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 165
+        width: 98
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e43326b8fab12a34f8e525c9fdc9bb38
+      internalID: -1968166990388773323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arqueiro Orc lvl 1_9
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 165
+        width: 98
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dc806daaca74e948beb72cd86271eba
+      internalID: -84824799577643454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arqueiro Orc lvl 1_10
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 165
+        width: 98
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5659dfcda89c09478f443b3a42532e9
+      internalID: 2102142596904987211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arqueiro Orc lvl 1_11
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 165
+        width: 98
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ea5914f5d2bc484cae5be14d854d893
+      internalID: -2651914516035777427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arqueiro Orc lvl 1_12
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 3
+        width: 98
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed3823ad4435260438738efd4354e9b3
+      internalID: -2750214630602333926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arqueiro Orc lvl 1_13
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 3
+        width: 98
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 750a106a39a0e8d4e910c3ff48f906e8
+      internalID: 6430739345453684950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arqueiro Orc lvl 1_14
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 14
+        width: 98
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 333632717b7cf7e4887ba92401121ab8
+      internalID: 1273515017770198132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arqueiro Orc lvl 1_15
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 14
+        width: 98
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c4ae0a04ab9de242956ef073bccca4c
+      internalID: -7386552784730610946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arqueiro Orc lvl 1_16
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 14
+        width: 98
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44004f35f470d0f47be1aaa462f81c50
+      internalID: -8689436534806571715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arqueiro Orc lvl 1_17
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 14
+        width: 98
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17eb578f5aca13145a05187d16f3890c
+      internalID: 4927462778108754349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

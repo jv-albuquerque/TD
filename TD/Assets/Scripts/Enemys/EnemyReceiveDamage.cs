@@ -25,8 +25,6 @@ public class EnemyReceiveDamage : MonoBehaviour
             if (value > shield)
                 hp -= value - shield;
 
-            Debug.Log(hp);
-
             //todo: Unable the object until it needs to be called again;
             if (hp <= 0)
             {

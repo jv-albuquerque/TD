@@ -16,7 +16,14 @@ public class ConstructionArea : MonoBehaviour
 
     private GameObject ActiveTower = null;
 
-    private StatusController resource;
+    private StatusController resource = null;
+
+    private SpriteRenderer spriteRenderer = null;
+
+    private void Awake()
+    {
+        spriteRenderer = GetComponent<SpriteRenderer>();
+    }
 
     private void Start()
     {
@@ -94,6 +101,7 @@ public class ConstructionArea : MonoBehaviour
             ActiveTower = Instantiate(tower, transform.position, Quaternion.identity);
             tu = ActiveTower.GetComponent<TowerUpgrade>();
             resource.Money -= tu.Cost;
+            spriteRenderer.enabled = false;
         }
         else
         {
@@ -106,6 +114,7 @@ public class ConstructionArea : MonoBehaviour
         resource.Money += ActiveTower.GetComponent<TowerUpgrade>().SellCost / 2;
         GameObject.Destroy(ActiveTower);
         ActiveTower = null;
+        spriteRenderer.enabled = true;
     }
 
     public void Upgrade()
