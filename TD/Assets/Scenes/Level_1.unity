@@ -5192,7 +5192,6 @@ GameObject:
   - component: {fileID: 1403522035}
   - component: {fileID: 1403522038}
   - component: {fileID: 1403522037}
-  - component: {fileID: 1403522036}
   m_Layer: 5
   m_Name: TXT_Waves
   m_TagString: Untagged
@@ -5219,18 +5218,6 @@ RectTransform:
   m_AnchoredPosition: {x: 128.3, y: -98}
   m_SizeDelta: {x: 72.7, y: 27.55}
   m_Pivot: {x: 0, y: 1}
---- !u!114 &1403522036
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1403522034}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a90e5d7e21c5fa44ebef1d56b4e6a024, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1403522037
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6801,7 +6788,6 @@ GameObject:
   - component: {fileID: 1863651969}
   - component: {fileID: 1863651972}
   - component: {fileID: 1863651971}
-  - component: {fileID: 1863651970}
   m_Layer: 5
   m_Name: Waves
   m_TagString: Untagged
@@ -6828,18 +6814,6 @@ RectTransform:
   m_AnchoredPosition: {x: 198.1, y: -98}
   m_SizeDelta: {x: 65.81, y: 27.55}
   m_Pivot: {x: 0, y: 1}
---- !u!114 &1863651970
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1863651968}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a90e5d7e21c5fa44ebef1d56b4e6a024, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1863651971
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6973,7 +6947,7 @@ GameObject:
   - component: {fileID: 1904083742}
   - component: {fileID: 1904083741}
   m_Layer: 5
-  m_Name: Image
+  m_Name: InferiorBar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
