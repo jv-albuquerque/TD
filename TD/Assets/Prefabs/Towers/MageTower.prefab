@@ -1,5 +1,35 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5459620375576071564
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2460530295359752761}
+  m_Layer: 0
+  m_Name: ShootPosition
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2460530295359752761
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5459620375576071564}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.405, y: 0.352, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4343733076768789100}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5739729474115217353
 GameObject:
   m_ObjectHideFlags: 0
@@ -12,6 +42,7 @@ GameObject:
   - component: {fileID: 7841787158030301667}
   - component: {fileID: 1907387429313544083}
   - component: {fileID: 3285990021085255794}
+  - component: {fileID: 7584194321217197030}
   m_Layer: 0
   m_Name: MageTower
   m_TagString: Untagged
@@ -27,9 +58,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5739729474115217353}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.12, y: -2.32, z: 0}
-  m_LocalScale: {x: 0.66, y: 0.66, z: 0.66}
-  m_Children: []
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: -0.66, y: 0.66, z: 0.66}
+  m_Children:
+  - {fileID: 2460530295359752761}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -71,8 +103,9 @@ SpriteRenderer:
   m_SortingLayerID: 681964815
   m_SortingLayer: 4
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: caf78eeb066de464ea09b23a443962e2, type: 3}
-  m_Color: {r: 0.62352943, g: 0.38431373, b: 0.9607843, a: 1}
+  m_Sprite: {fileID: -6785253153334045187, guid: 5e04bba9a941ce74c80142453fe342ab,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -94,8 +127,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1bb24697ffdedf14e88422dc775d332b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  anim: {fileID: 7584194321217197030}
   projectile: {fileID: 2203234659400133451, guid: b7980f607f4294541afcb72221183ad2,
     type: 3}
+  shootPosition: {fileID: 2460530295359752761}
   cooldownToShoot: 1
   attackRange: 1.8
 --- !u!114 &3285990021085255794
@@ -121,3 +156,22 @@ MonoBehaviour:
   - 2
   - 1.6
   - 1.3
+--- !u!95 &7584194321217197030
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5739729474115217353}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 8406daf79f3adab4f8d5f056b50405e6, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

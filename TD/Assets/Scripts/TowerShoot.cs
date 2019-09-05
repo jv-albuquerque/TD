@@ -10,9 +10,11 @@ public class TowerShoot : MonoBehaviour
     [SerializeField] private Transform shootPosition = null;
     [SerializeField] private float cooldownToShoot = 1f;
 
-    private Cooldown cdShoot;
-
     [SerializeField] private float attackRange = 1.5f;
+
+    private Cooldown cdShoot;
+    private bool lookingRight = true;
+
 
     private GameObject enemyToAttack = null;
 
@@ -34,9 +36,9 @@ public class TowerShoot : MonoBehaviour
 
         if (enemyToAttack)
         {
-            if (transform.localScale.x > 0 && enemyToAttack.GetComponent<Transform>().position.x < transform.position.x)
+            if (lookingRight && enemyToAttack.GetComponent<Transform>().position.x < transform.position.x)
                 Flip();
-            else if (transform.localScale.x < 0 && enemyToAttack.GetComponent<Transform>().position.x > transform.position.x)
+            else if (!lookingRight && enemyToAttack.GetComponent<Transform>().position.x > transform.position.x)
                 Flip();
         }
     }
@@ -84,9 +86,7 @@ public class TowerShoot : MonoBehaviour
 
     private void Flip()
     {
-        Vector3 scale = transform.localScale;
-        scale.x = -scale.x;
-
-        transform.localScale = scale;
+        lookingRight = !lookingRight;
+        anim.SetBool("LookingRight", lookingRight);
     }
 }

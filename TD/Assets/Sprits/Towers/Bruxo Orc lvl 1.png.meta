@@ -1,7 +1,67 @@
 fileFormatVersion: 2
 guid: 5e04bba9a941ce74c80142453fe342ab
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -6785253153334045187
+    second: Bruxo Orc lvl 1_0
+  - first:
+      213: 3600418314313644733
+    second: Bruxo Orc lvl 1_1
+  - first:
+      213: 1633153464768288336
+    second: Bruxo Orc lvl 1_2
+  - first:
+      213: -673340284597057632
+    second: Bruxo Orc lvl 1_3
+  - first:
+      213: -819420221614575146
+    second: Bruxo Orc lvl 1_4
+  - first:
+      213: -5622209201970683386
+    second: Bruxo Orc lvl 1_5
+  - first:
+      213: 2216089677867698908
+    second: Bruxo Orc lvl 1_6
+  - first:
+      213: 8839523132485756135
+    second: Bruxo Orc lvl 1_7
+  - first:
+      213: 3594891632812285053
+    second: Bruxo Orc lvl 1_8
+  - first:
+      213: 3939289747454679505
+    second: Bruxo Orc lvl 1_9
+  - first:
+      213: -5308004238818308471
+    second: Bruxo Orc lvl 1_10
+  - first:
+      213: 859813131016966783
+    second: Bruxo Orc lvl 1_11
+  - first:
+      213: -8813604032144426646
+    second: Bruxo Orc lvl 1_12
+  - first:
+      213: 73748539037622389
+    second: Bruxo Orc lvl 1_13
+  - first:
+      213: -6429889390023331783
+    second: Bruxo Orc lvl 1_14
+  - first:
+      213: 4775986619615055104
+    second: Bruxo Orc lvl 1_15
+  - first:
+      213: 3632716625255992106
+    second: Bruxo Orc lvl 1_16
+  - first:
+      213: -7374203219351361705
+    second: Bruxo Orc lvl 1_17
+  - first:
+      213: 771428259852147703
+    second: Bruxo Orc lvl 1_18
+  - first:
+      213: -6096457657291304268
+    second: Bruxo Orc lvl 1_19
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -40,7 +100,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -70,9 +130,465 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Bruxo Orc lvl 1_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 558
+        width: 130
+        height: 170
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2823}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d045a3dd48ce59741be627dd8ff232fb
+      internalID: -6785253153334045187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruxo Orc lvl 1_1
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 558
+        width: 130
+        height: 170
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2823}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ac29091c7e9f2c488ba725a86f5b445
+      internalID: 3600418314313644733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruxo Orc lvl 1_2
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 558
+        width: 130
+        height: 170
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2823}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 917da8fa50249644b99464b1377b137a
+      internalID: 1633153464768288336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruxo Orc lvl 1_3
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 558
+        width: 130
+        height: 170
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2823}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5715f7c89b1c2be4683aaebcb3b57ece
+      internalID: -673340284597057632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruxo Orc lvl 1_4
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 545
+        width: 130
+        height: 170
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2823}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9332309c7fdcd1428d19302c1a0addb
+      internalID: -819420221614575146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruxo Orc lvl 1_5
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 364
+        width: 130
+        height: 170
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2823}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7216b0d17a6bd0e449087af9d0034f40
+      internalID: -5622209201970683386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruxo Orc lvl 1_6
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 364
+        width: 130
+        height: 170
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2823}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91be1d96b3f18cc45882d8f6a6063f3e
+      internalID: 2216089677867698908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruxo Orc lvl 1_7
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 364
+        width: 130
+        height: 170
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2823}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92d5c2a23724e424fac8e6c6421dd5c7
+      internalID: 8839523132485756135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruxo Orc lvl 1_8
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 364
+        width: 130
+        height: 170
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2823}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b02694b62d391854b86781f3f77b0dff
+      internalID: 3594891632812285053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruxo Orc lvl 1_9
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 364
+        width: 130
+        height: 170
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2823}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2e3cb9d915893e4abfc691d8595e038
+      internalID: 3939289747454679505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruxo Orc lvl 1_10
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 183
+        width: 130
+        height: 170
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2823}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cb052b5c5d5cfa499de20cfc2a2b6ec
+      internalID: -5308004238818308471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruxo Orc lvl 1_11
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 183
+        width: 130
+        height: 170
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2823}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ef32e7384b2bbd4bb9d94209677aadd
+      internalID: 859813131016966783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruxo Orc lvl 1_12
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 183
+        width: 130
+        height: 170
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2823}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf9f8190f70b3174e9e9317492e0f669
+      internalID: -8813604032144426646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruxo Orc lvl 1_13
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 183
+        width: 130
+        height: 170
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2823}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5218a0497ee3da64a8c4b3f0878d4e2e
+      internalID: 73748539037622389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruxo Orc lvl 1_14
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 183
+        width: 130
+        height: 170
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2823}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dcf20c4626c4414e9e9a2f734e598ae
+      internalID: -6429889390023331783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruxo Orc lvl 1_15
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2
+        width: 130
+        height: 170
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2823}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a83270fd80790547b3f48f870a9d3b2
+      internalID: 4775986619615055104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruxo Orc lvl 1_16
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 2
+        width: 130
+        height: 170
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2823}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87ec2f8ba03e1e046a3c7b9cb506b82c
+      internalID: 3632716625255992106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruxo Orc lvl 1_17
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 2
+        width: 130
+        height: 170
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2823}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bf0dcf4eedbbd14cb50eb2af80d1696
+      internalID: -7374203219351361705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruxo Orc lvl 1_18
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 2
+        width: 130
+        height: 170
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2823}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c41fb98c6f76b14cbd67ad13015c73a
+      internalID: 771428259852147703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bruxo Orc lvl 1_19
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 2
+        width: 130
+        height: 170
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2823}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eeafffb9bc251c44bdc3a0e26bc9b25
+      internalID: -6096457657291304268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
