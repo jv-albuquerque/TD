@@ -14,7 +14,6 @@ public class ClickController : MonoBehaviour
             RaycastHit2D hit = Physics2D.Raycast(mousePos2D, Vector2.zero);
             if (hit.collider != null)
             {
-                Debug.Log(hit.collider.name);
                 if (hit.collider.CompareTag("Tile"))
                 {
                     if (hit.collider.gameObject.GetComponent<ConstructionArea>() == lastTileHit)

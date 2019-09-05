@@ -12,24 +12,67 @@ public class Cooldown
     private float pausePercent; // store the percent of the cooldown when was paused
     private float pauseTimeLeft; // store the time left of the cooldown when was paused
 
+    private bool randomRange = false;
+    private float minTime;
+    private float maxTime;
+
 
     /// <summary>
     /// Constructor of the class with param
     /// _time: is the cooldown time
     /// </summary>
-    public Cooldown(float _time)
+    public Cooldown(float _time, bool start = false)
     {
         time = _time;
-        timer = 0;
+        timer = -1;
+
+        if (start)
+            this.Start();
+    }
+
+    /// <summary>
+    /// Constructor of the class with param
+    /// _minTime: is the minimum time of the cooldown
+    /// _maxTime: is the maximum time of the cooldown
+    /// </summary>
+    public Cooldown(float _minTime, float _maxTime, bool start = false)
+    {
+        randomRange = true;
+        minTime = _minTime;
+        maxTime = _maxTime;
+        timer = -1;
+
+        if (start)
+            this.Start();
     }
 
     /// <summary>
     /// Set the cooldown to a new time
     /// _time: is the new time of the cooldown
     /// </summary>
-    public void SetTime(float _time)
+    public void SetTime(float _time, bool start = false)
     {
+        randomRange = false;
         time = _time;
+        timer = -1;
+
+        if (start)
+            this.Start();
+    }
+
+    /// <summary>
+    /// Set the cooldown to a new time
+    /// _time: is the new time of the cooldown
+    /// </summary>
+    public void SetTime(float _minTime, float _maxTime, bool start = false)
+    {
+        randomRange = true;
+        minTime = _minTime;
+        maxTime = _maxTime;
+        timer = -1;
+
+        if (start)
+            this.Start();
     }
 
     /// <summary>
@@ -55,9 +98,20 @@ public class Cooldown
     public void Start()
     {
         if (paused)
+        {
             paused = false;
 
-        timer = time + Time.time;
+            if (!this.IsFinished)
+            {
+                timer = pauseGap + Time.time;
+                return;
+            }
+        }
+
+        if (randomRange)
+            timer = Random.Range(minTime, maxTime) + Time.time;
+        else
+            timer = time + Time.time;
     }
 
     /// <summary>
@@ -125,7 +179,10 @@ public class Cooldown
         if (paused)
             paused = false;
 
-        timer = time + Time.time;
+        if (randomRange)
+            timer = Random.Range(minTime, maxTime) + Time.time;
+        else
+            timer = time + Time.time;
     }
 
     /// <summary>
@@ -150,7 +207,8 @@ public class Cooldown
     /// </summary>
     public void Stop()
     {
-        paused = true;
+        this.Start();
+        this.Pause();
     }
 
 }

@@ -2,13 +2,18 @@
 
 public class TowerShoot : MonoBehaviour
 {
+    [Header("Animation")]
+    [SerializeField] private Animator anim = null;
+
+    [Header("Properties")]
     [SerializeField] private GameObject projectile = null;
-    //[SerializeField] private Transform shootPosition = null;
+    [SerializeField] private Transform shootPosition = null;
     [SerializeField] private float cooldownToShoot = 1f;
 
     private Cooldown cdShoot;
 
     [SerializeField] private float attackRange = 1.5f;
+
     private GameObject enemyToAttack = null;
 
     private EnemyController enemyController;
@@ -16,34 +21,44 @@ public class TowerShoot : MonoBehaviour
     private void Start()
     {
         cdShoot = new Cooldown(cooldownToShoot);
-        cdShoot.Start();
         enemyController = GameObject.FindGameObjectWithTag("GameController").GetComponent<EnemyController>();
+
     }
 
     private void Update()
     {
         if (cdShoot.IsFinished)
         {
-            if (Shoot())
-                cdShoot.Start();
+            TryShoot();
+        }
+
+        if (enemyToAttack)
+        {
+            if (transform.localScale.x > 0 && enemyToAttack.GetComponent<Transform>().position.x < transform.position.x)
+                Flip();
+            else if (transform.localScale.x < 0 && enemyToAttack.GetComponent<Transform>().position.x > transform.position.x)
+                Flip();
         }
     }
 
-    private bool Shoot()
+    private void TryShoot()
     {
         if (enemyToAttack != null &&
             Vector2.Distance(enemyToAttack.transform.position, transform.position) <= attackRange &&
             enemyToAttack.GetComponent<EnemyReceiveDamage>().IsActive)
         {
-            //todo: shoot form shootPosition and rotate the tower
-            GameObject proj = Instantiate(projectile, transform.position, transform.rotation);
-            proj.GetComponent<ProjectileMovement>().SetTarget = enemyToAttack;
-            return true;
+            cdShoot.Start();
+            anim.SetTrigger("Shoot");
         }
         else
             FindEnemies();
+    }
 
-        return false;
+
+    public void Shoot()
+    {
+        GameObject proj = Instantiate(projectile, shootPosition.position, transform.rotation);
+        proj.GetComponent<ProjectileMovement>().SetTarget = enemyToAttack;
     }
 
     private void FindEnemies()
@@ -65,5 +80,13 @@ public class TowerShoot : MonoBehaviour
         attackRange = range;
         cdShoot = new Cooldown(newCD);
         cdShoot.Start();
+    }
+
+    private void Flip()
+    {
+        Vector3 scale = transform.localScale;
+        scale.x = -scale.x;
+
+        transform.localScale = scale;
     }
 }
