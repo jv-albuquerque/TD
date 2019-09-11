@@ -20,28 +20,33 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: -819420221614575146, guid: 5e04bba9a941ce74c80142453fe342ab,
+      value: {fileID: -20701555193049997, guid: 55d11eac8b3b99c4896255bdde5fa418,
         type: 3}
     - time: 0.1
-      value: {fileID: -5622209201970683386, guid: 5e04bba9a941ce74c80142453fe342ab,
+      value: {fileID: 6940518751448807063, guid: 55d11eac8b3b99c4896255bdde5fa418,
         type: 3}
     - time: 0.2
-      value: {fileID: 2216089677867698908, guid: 5e04bba9a941ce74c80142453fe342ab,
+      value: {fileID: 3847931018112155441, guid: 55d11eac8b3b99c4896255bdde5fa418,
         type: 3}
     - time: 0.3
-      value: {fileID: 8839523132485756135, guid: 5e04bba9a941ce74c80142453fe342ab,
+      value: {fileID: 8006990945513234005, guid: 55d11eac8b3b99c4896255bdde5fa418,
         type: 3}
     - time: 0.4
-      value: {fileID: 3594891632812285053, guid: 5e04bba9a941ce74c80142453fe342ab,
-        type: 3}
+      value: {fileID: 7704777815696296, guid: 55d11eac8b3b99c4896255bdde5fa418, type: 3}
     - time: 0.5
-      value: {fileID: 3939289747454679505, guid: 5e04bba9a941ce74c80142453fe342ab,
+      value: {fileID: -4639117664390114127, guid: 55d11eac8b3b99c4896255bdde5fa418,
         type: 3}
     - time: 0.6
-      value: {fileID: -5308004238818308471, guid: 5e04bba9a941ce74c80142453fe342ab,
+      value: {fileID: -8513214347294713265, guid: 55d11eac8b3b99c4896255bdde5fa418,
         type: 3}
     - time: 0.7
-      value: {fileID: 859813131016966783, guid: 5e04bba9a941ce74c80142453fe342ab,
+      value: {fileID: 3048384542310139641, guid: 55d11eac8b3b99c4896255bdde5fa418,
+        type: 3}
+    - time: 0.8
+      value: {fileID: -3139643746136274682, guid: 55d11eac8b3b99c4896255bdde5fa418,
+        type: 3}
+    - time: 0.9
+      value: {fileID: 6097591290822656338, guid: 55d11eac8b3b99c4896255bdde5fa418,
         type: 3}
     attribute: m_Sprite
     path: 
@@ -62,20 +67,22 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: -819420221614575146, guid: 5e04bba9a941ce74c80142453fe342ab, type: 3}
-    - {fileID: -5622209201970683386, guid: 5e04bba9a941ce74c80142453fe342ab, type: 3}
-    - {fileID: 2216089677867698908, guid: 5e04bba9a941ce74c80142453fe342ab, type: 3}
-    - {fileID: 8839523132485756135, guid: 5e04bba9a941ce74c80142453fe342ab, type: 3}
-    - {fileID: 3594891632812285053, guid: 5e04bba9a941ce74c80142453fe342ab, type: 3}
-    - {fileID: 3939289747454679505, guid: 5e04bba9a941ce74c80142453fe342ab, type: 3}
-    - {fileID: -5308004238818308471, guid: 5e04bba9a941ce74c80142453fe342ab, type: 3}
-    - {fileID: 859813131016966783, guid: 5e04bba9a941ce74c80142453fe342ab, type: 3}
+    - {fileID: -20701555193049997, guid: 55d11eac8b3b99c4896255bdde5fa418, type: 3}
+    - {fileID: 6940518751448807063, guid: 55d11eac8b3b99c4896255bdde5fa418, type: 3}
+    - {fileID: 3847931018112155441, guid: 55d11eac8b3b99c4896255bdde5fa418, type: 3}
+    - {fileID: 8006990945513234005, guid: 55d11eac8b3b99c4896255bdde5fa418, type: 3}
+    - {fileID: 7704777815696296, guid: 55d11eac8b3b99c4896255bdde5fa418, type: 3}
+    - {fileID: -4639117664390114127, guid: 55d11eac8b3b99c4896255bdde5fa418, type: 3}
+    - {fileID: -8513214347294713265, guid: 55d11eac8b3b99c4896255bdde5fa418, type: 3}
+    - {fileID: 3048384542310139641, guid: 55d11eac8b3b99c4896255bdde5fa418, type: 3}
+    - {fileID: -3139643746136274682, guid: 55d11eac8b3b99c4896255bdde5fa418, type: 3}
+    - {fileID: 6097591290822656338, guid: 55d11eac8b3b99c4896255bdde5fa418, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.8
+    m_StopTime: 1
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -95,8 +102,8 @@ AnimationClip:
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
   m_Events:
-  - time: 0.4
-    functionName: Shoot
+  - time: 0.7
+    functionName: CallEvent
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
