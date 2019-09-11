@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3239623270760077453}
   - component: {fileID: 2297014322822454071}
   - component: {fileID: 5789377288654483211}
+  - component: {fileID: 1109332655691239184}
   m_Layer: 0
   m_Name: "Xam\xE3"
   m_TagString: Untagged
@@ -101,6 +102,34 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1109332655691239184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5458637917852790599}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bca44105cd78934692da41c791a9c00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4560129732742199852}
+        m_MethodName: Shoot
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!1 &8583980547247777243
 GameObject:
   m_ObjectHideFlags: 0
@@ -201,7 +230,7 @@ MonoBehaviour:
   shooterObjects:
   - {fileID: 5458637917852790599}
   - {fileID: 8950039204689854168}
-  projectile: {fileID: 2203234659400133451, guid: b7980f607f4294541afcb72221183ad2,
+  projectile: {fileID: 6252414778696649893, guid: bb54b37072d6a584289b811362af1b76,
     type: 3}
   shootPosition: {fileID: 4402407766291436851}
   cooldownToShoot: 1
@@ -253,7 +282,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8950039204689854168}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.178, y: 0.609, z: 0}
+  m_LocalPosition: {x: 0.216, y: 0.515, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 247113789919831316}

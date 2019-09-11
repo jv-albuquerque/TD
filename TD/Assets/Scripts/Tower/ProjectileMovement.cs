@@ -41,7 +41,10 @@ public class ProjectileMovement : MonoBehaviour
     {
         set
         {
-            damage = value;
+            if (spawnOther)
+                spawnObject.GetComponent<AreaDamage>().SetDamage = value;
+            else
+                damage = value;
         }
     }
 
@@ -49,9 +52,10 @@ public class ProjectileMovement : MonoBehaviour
     {
         if (collision.gameObject == target)
         {
-            target.GetComponent<EnemyReceiveDamage>().Damage = damage;
             if (spawnOther)
                 Instantiate(spawnObject, transform.position, transform.rotation);
+            else
+                target.GetComponent<EnemyReceiveDamage>().Damage = damage;
             Destroy(gameObject);
         }
     }
