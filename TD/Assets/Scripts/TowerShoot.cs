@@ -4,6 +4,7 @@ public class TowerShoot : MonoBehaviour
 {
     [Header("Animation")]
     [SerializeField] private Animator anim = null;
+    [SerializeField] private GameObject[] shooterObjects;
 
     [Header("Properties")]
     [SerializeField] private GameObject projectile = null;
@@ -86,7 +87,16 @@ public class TowerShoot : MonoBehaviour
 
     private void Flip()
     {
+        for (int i = 0; i < shooterObjects.Length; i++)
+        {
+            Vector3 scale = shooterObjects[i].transform.localScale;
+
+            scale.x = -scale.x;
+
+            shooterObjects[i].transform.localScale = scale;
+        }        
+
         lookingRight = !lookingRight;
-        anim.SetBool("LookingRight", lookingRight);
+
     }
 }

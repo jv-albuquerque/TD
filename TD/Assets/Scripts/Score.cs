@@ -4,14 +4,13 @@ using TMPro;
 public class Score : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI textScore = null;
-    [SerializeField] private TextMeshProUGUI textHighScore = null;
 
     private int score = 0;
 
     //Start with the highscore updated or zero if it hasn't a highscore yet
     private void Start()
     {
-        textHighScore.text = PlayerPrefs.GetInt("HighScore", 0).ToString();
+
     }
 
     /// <summary>
